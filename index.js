@@ -29,7 +29,7 @@ async function run(){
 
         // test hello
         app.get('/hello', (req, res) =>{
-            res.send('hello updated here')
+            res.send('hello updated here');
         })
 
         // get api by id
